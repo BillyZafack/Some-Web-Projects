@@ -1,0 +1,30 @@
+section{
+border: 1px solid red;
+height: 620px;
+margin-left: 200px;
+margin-right:200px;
+}
+aside
+{
+float: left;
+width: 350px;
+height: 500px;
+margin-left: 70px;
+/*border: 1px solid black;
+    */
+}
+article
+{
+margin-left: 500px;
+width: 350px;
+height: 500px;
+height: 360px;
+/*border: 1px solid blue;*/
+}
+#GroupeProprietaire_Document,#Type_Document{
+display: none;
+}
+.formulaire{
+width: 300px;
+padding: 70px 30px;
+}

@@ -1,0 +1,3 @@
+// Structure fichier, [Nom UE] : [Nom_Fichier] : [Nom_Professeur] : [Session] : [Duree] : [Nombre Questions] : [Type] : [nom Fichier examen]
+Connaissances Generales : examen_connaissances_generales_JEAN_BLACK_fevrier_2014_2015:Pr. Jean Black :Fevrier 2014 : 30 minutes : 20 Questions : Facile : QCM
+Histoire: examen_histoire_KING_fevrier_2014_2015: Pr. King Claude :Fevrier 2014 : 30 minutes : 20 Questions : Facile : QCM 

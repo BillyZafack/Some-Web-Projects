@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 20, 2014, 7:38:35 PM
+    Author     : Zafack Billy
+*/
+
+a{
+     color:#ccc;
+     text-shadow:0 -1px 0 black;                
+}
+a:hover,a:focus{
+     background:rgba(0,0,0,.4);
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+a span{
+     position:absolute; 
+     margin-top:23px;
+     margin-left:-35px;
+     color:#09c;
+     background:rgba(0,0,0,.9);
+     padding:15px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     transform:scale(0) rotate(-12deg);
+      transition:all .25s;
+      z-index: 555;
+}
+ 
+#span1{
+     position:absolute; 
+     margin-top:23px;
+     margin-left:-35px;
+     color:#09c;
+     background:rgba(0,0,0,.9);
+     padding:15px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     transform:scale(0) rotate(-12deg);
+      transition:all .25s;
+      z-index: 555;
+}
+ 
+img{
+         z-index: 1;
+}
+a:hover span, a:focus span{
+     transform:scale(1) rotate(0);        
+}
+a:hover area, a:focus area{
+     transform:scale(1) rotate(0);        
+}
+a span{ 
+     opacity:0;
+}
+a:hover span, a:focus span{ 
+     opacity:1;
+}
+span{
+    z-index: 9999;
+}
+.sas{
+    color:blue;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 5px;
+}

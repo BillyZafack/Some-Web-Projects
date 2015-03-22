@@ -1,0 +1,67 @@
+﻿://L'etoile precede la bonne reponse
+INTITULE   : EXAMEN CONNAISSANCES GENERALES
+SESSION    : FEVRIER
+PROFESSEUR : PR. JEAN BLACK
+DUREE      : 30 minutes
+:
+DEBUT QUESTIONS
+:
+Q : Quel est la capitale de l'Afrique du Sud?
+R : Johannesburg|*Pretoria|Capetown|Windhoek
+:
+Q : Qui est le President Francais?
+R : Nicholas Sarkozy|Jacques Chirac|*Francois Hollande|Manuel Valls
+:
+Q : En quel annee est sortie le filme culte Titanic?
+R : 2000|1994|1996|*1998
+:
+Q : Quelle element chimique a pour symbole l'etain?
+R : *Sn|E|Et|En
+:
+Q : Qui est le meilleure buteur dans l'histoire du Real De Madrid?
+R : *Raul|Cristiano Ronaldo|Figo|Zidane
+:
+Q : Qui est l'actrice principale du filme Tomb Raider?
+R : Charlize Theron|Cameron Diaz|*Angelina Jolie|Lara Croft
+:
+Q : Combien de kilogrammes font 1 Teragramme?
+R : 1000|*1000000000|10000|1000000
+:
+Q : Quelle est la configuration de clavier utilisee par les Anglais?
+R : AZERTY|*QWERTY|SWERTY|ERTYU
+:
+Q : Quelle est l'etape finale dans le cycle de vie d'un programme informatique?
+R : L'analyse|*La maintenance|La Conception|Le Deploiement
+:
+Q : Combien d'yeux a une araignee?
+R : 4|2|1|*8
+:
+Q : Quelle est la capitale politique ivoirienne?
+R : *Yamoussoukro|Abidjan|Cotonou|Bouake
+:
+Q : Quel artiste a le plus grand nombre de vues pour un single sur youtube.com?
+R : Nicki Minaj|Lady Gaga|Kanye West|*Psy
+:
+Q : Dans quelle club evolue Samuel Eto'o en 2008?
+R : Inter Milan|FC Mallorca |RCD Majorque|*FC Barcelone
+:
+Q : Quel joueur est le ballon d'or en 2007?
+R : *Kaka|Cristiano Ronaldo|Lionel Messi|Xavi
+:
+Q : En quel annee est mort Michael Jackson?
+R : 2006|2008|2007|*2009
+:
+Q : En quelle annee est oficiellement apparu le langage Java?
+R : 1994|*1995|1993|1999
+:
+Q : Quelle est la monnaie utilisee au Etats-Unis?
+R : Euro|Peso|*Dollar|Yen
+:
+Q : Quelle est la monnaie utilisee en France?
+R : Yuan|Franc|Dollar|*Euro
+:
+Q : Quelle est la capitale gabonaise?
+R : Waka|Brazzaville|*Libreville|Niamey
+:
+Q : Qui est la presidente liberienne?
+R : *Ellen Johnson|Dilma Rousseff|Cristina Kirchner|Alma Mater

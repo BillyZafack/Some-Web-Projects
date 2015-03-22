@@ -1,0 +1,213 @@
+
+.codeSnippetContainer {
+	clear: both; 
+    min-width: 260px;
+}
+
+.codeSnippetContainerTabs {
+	height: 23px; 
+    vertical-align: middle; 
+    position: relative; z-index: 1;
+}
+
+.codeSnippetContainerTabs > div:first-child {
+	border-left-color: rgb(147, 147, 147); 
+    border-left-width: 1px; 
+    border-left-style: solid;
+}
+
+
+.codeSnippetContainerTab{
+	padding: 0px 15px; 
+    width: auto; 
+    height: 22px; 
+    color: rgb(112, 112, 112); 
+    line-height: 17px; 
+    font-family: "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif !important; 
+    font-size: 13px; 
+    font-style: normal !important; 
+    vertical-align: baseline; 
+    border-top-color: rgb(147, 147, 147); 
+    border-right-color: rgb(147, 147, 147); 
+    border-top-width: 1px; 
+    border-right-width: 1px;  
+    border-top-style: solid; 
+    border-right-style: solid;  
+    float: left; 
+    background-color: transparent;
+}
+
+.codeSnippetContainerTabActive {
+	padding: 0px 15px; 
+    width: auto; 
+    height: 22px; 
+    color: rgb(112, 112, 112); 
+    line-height: 17px; 
+    font-family: "Segoe UI","Lucida Grande",Verdana,Arial,Helvetica,sans-serif !important; 
+    font-size: 13px; 
+    font-style: normal !important; 
+    vertical-align: baseline; 
+    border-top-color: rgb(147, 147, 147); 
+    border-right-color: rgb(147, 147, 147); 
+    border-bottom-color: rgb(255, 255, 255); 
+    border-top-width: 1px; 
+    border-right-width: 1px; 
+    border-bottom-width: 1px; 
+    border-top-style: solid; 
+    border-right-style: solid; 
+    border-bottom-style: solid; 
+    float: left; 
+    background-color: transparent;
+}
+
+.codeSnippetContainerTab a {
+	top: 2px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    position: relative;
+}
+
+.codeSnippetContainerTab a:link {
+	top: 2px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    position: relative;
+}
+
+.codeSnippetContainerTab a:visited {
+	top: 2px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    position: relative;
+}
+
+.codeSnippetContainerTab a:active {
+	top: 2px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    position: relative;
+}
+
+.codeSnippetContainerTab a:hover {
+	top: 2px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    position: relative; 
+    cursor: pointer;
+    color: rgb(112, 112, 112); 
+    position: relative;
+}
+
+.codeSnippetContainerTabActive a {
+    top: 2px; 
+    color: rgb(0, 0, 0); 
+    font-weight: bold; 
+    text-decoration: none; 
+    position: relative;
+}
+
+.codeSnippetContainerTabActive a:link {
+	top: 2px; 
+    color: rgb(0, 0, 0); 
+    font-weight: bold; 
+    text-decoration: none; 
+    position: relative;
+}
+
+/*
+.codeSnippetContainerTab a:visited {
+	top: 2px; 
+    color: #0094ff; 
+    font-weight: bold; 
+    text-decoration: none; 
+    position: relative;
+}
+*/
+/*
+.codeSnippetContainerTabActive a:active {
+	top: 2px; 
+    color: rgb(0, 0, 0); 
+    font-weight: bold; 
+    text-decoration: none; 
+    position: relative;
+}
+*/
+
+.codeSnippetContainerTabActive a:hover {
+	top: 2px; 
+    color: rgb(112, 112, 112); 
+    position: relative;
+}
+
+.codeSnippetContainerCodeContainer {
+	border: 1px solid rgb(147, 147, 147); 
+    top: -1px; 
+    clear: both; 
+    margin-bottom: 12px; 
+    position: relative;
+}
+
+.codeSnippetToolBar {
+	width: auto; 
+    height: auto;
+}
+
+.codeSnippetContainerCode {
+	margin: 0px; 
+    padding: 10px 21px; 
+    width: auto;
+}
+/*
+.codeSnippetContainerCode div {
+	margin: 0px; 
+    padding: 0px;
+}
+*/
+/*
+.codeSnippetContainerCode pre {
+	margin: 0px; 
+    padding: 5px; 
+    overflow: auto; 
+    font-family: Consolas,Courier,monospace !important; 
+    font-style: normal; 
+    font-weight: normal; 
+    -ms-word-wrap: normal;
+}
+*/
+#GroupeProprietaire_Document, #Type_Document
+{
+    display: none;
+}
+
+section{
+border: 1px solid red;
+height: 620px;
+margin-left: 200px;
+margin-right:200px;
+}
+aside
+{
+float: left;
+width: 350px;
+height: 500px;
+margin-left: 70px;
+border: 1px solid black;
+}
+article
+{
+margin-left: 500px;
+width: 350px;
+height: 500px;
+height: 360px;
+border: 1px solid blue;
+}
+#GroupeProprietaire_Document,#Type_Document{
+display: none;
+}
+.formulaire{
+
+width: 300px;
+padding: 70px 30px;
+
+
+}

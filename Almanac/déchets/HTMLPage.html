@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title> Documents </title>
+        <link rel="stylesheet" href="Style.css"/>
+    </head>
+    <body>
+        <ul class="tabs group">
+            <li class="active"><a href="#one">One</a></li> 
+            <li><a href="#two">Two</a></li> 
+            <li><a href="#three">Three</a></li>
+            <li><a href="#three">Four</a></li> 
+        </ul>
+        <article class="formulaire" id="one">
+                <form name="Auteur">
+                    <label> Auteur(s) du document </label> </br></br>
+                
+                    <label> ID </label>
+                    <input type="number" name="id"/></br></br>
+                
+                    <label> Nombre de publications </label>
+                    <input type="number" name="prix"/></br></br>
+                
+                    <label> Domaine </label>
+                    <select name="Domaine" id="Domaine">
+                        <option value="Programmation web">Programmation web</option>
+                        <option value="Programmaiton Orientée Object">Programmaiton Orientée Object</option>
+                        <option value="Intelligence Artificielle">Intelligence Artificielle</option>
+                        <option value="Réseau">Réseau</option>
+                    </select>
+                    </br></br>
+                
+                    <label> Domaine </label>
+                    <input type="date" name="bday">
+
+                    <label> Attribut </label>
+                    <select name="Attribut" id="Attribut">
+                        <option value="Programmation web">Programmation web</option>
+                        <option value="Programmaiton Orientée Object">Programmaiton Orientée Object</option>
+                        <option value="Intelligence Artificielle">Intelligence Artificielle</option>
+                        <option value="Réseau">Réseau</option>
+                    </select>
+                    </br></br>
+                
+                    <input type="submit" value="Associer"/>
+                    <input type="reset" value="Annuler"/>
+                </form>    
+            </article>
+
+            <article class="formulaire" id="two">
+                <form name="GroupeProprietaire">
+                    <label> Groupe de Propriétaires du document </label> </br></br>
+                
+                    <label> ID </label>
+                    <input type="number" name="id_groupeProprietaire"/></br></br>
+                
+                    <label> Nom </label>
+                    <input type="text" name="Nom_groupeProprietaire"/></br></br>
+                
+                    <label> Statut </label>
+                    <input type="number" min="0" max="2" name="Statut_groupeProprietaire">
+                    </br></br>
+                
+                    <label> Description </label>
+                    <input type="text" name="description_groupeProprietaire"/>
+                    </br></br>
+                
+                    <input type="submit" value="Associer"/>
+                    <input type="reset" value="Annuler"/>
+                </form>    
+            </article>
+    </body>
+</html>

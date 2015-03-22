@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css"  type="text/css"/>
+        <link rel="stylesheet" href="Style1.css" type="text/css"/>
+        <script src="js/jquery.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+    </head>
+    <body>  
+        <header>
+            <div class="row"></div>
+            <div class="row"></div>
+        </header>  
+          
+        <section class="container">
+            <div class="row">
+            <div id="menu" class="menu-header offset4 span7">
+                    <ul id="onglets" class="nav nav-pills">
+                        <li class="active"><a href="#Auteur_Document" data-toggle="tab"> Auteur </a></li>
+                        <li><a href="#GroupeProprietaire_Document" data-toggle="tab"> Propriétaires </a></li>
+                        <li><a href="#Type_Document" data-toggle="tab"> Types </a></li>
+                    </ul>
+            </div>
+            </div>
+            
+            <div class="main-container row">
+                <aside class="span4">
+                    <form  class="well form-search">
+                        <input type="text" class="input-large search-query" placeholder="Recherche">
+                    </form>
+                    <div id="myCarousel" class="carousel">
+                        <div class="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active"> 
+                                    <img alt="doc1" src="ressources/images/doc1.jpg" class="carousel-image"/>
+                                    <div class="carousel-caption">
+                                        <p>La guerre des clans</p>
+                                        <p><em>La quête d'Etoile de feu</em></p>
+                                    </div>
+                                </div>
+                                <div class="item"> 
+                                    <img alt="doc2" src="ressources/images/doc2.jpg" class="carousel-image"/>
+                                    <div class="carousel-caption">
+                                        <p>La guerre des clans</p>
+                                        <p><em>Coucher de soleil</em></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control left" data-slide="prev" href="#myCarousel">‹</a>
+                            <a class="carousel-control right" data-slide="next"href="#myCarousel">›</a> 
+                        </div>
+                    </div>
+                </aside>
+                
+                <article class="form_A_Remplir">      
+                    <div class="tab-content">
+                        <div class="span7 formulaire Auteur_Document tab-pane active" id="Auteur_Document">
+                            <form name="Auteur" class="form-horizontal well">
+                                <fieldset>
+                                    <div class="control-group">
+                                        <label class="control-label" for="ID_Auteur"> ID </label>
+                                        <div class="controls">
+                                            <input type="number" min ="1" name="id_Auteur" id="ID_Auteur"/>  
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="Nombre_publications"> Nombre de publications </label>
+                                        <div class="controls">
+                                            <input type="number" min ="0" name="nombre_publications" id="Nombre_publications"/>  
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="Domaine_Auteur"> Domaine </label>
+                                        <div class="controls">
+                                            <select name="Domaine" id="Domaine_Auteur">
+                                                <option value="Programmation web">Programmation web</option>
+                                                <option value="Programmaiton Orientée Object">Programmaiton Orientée Object</option>
+                                                <option value="Intelligence Artificielle">Intelligence Artificielle</option>
+                                                <option value="Réseau">Réseau</option>
+                                            </select>
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="Date"> Date </label>
+                                        <div class="controls"> 
+                                            <input type="date" name="bday" id="Date"/>
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+                                              
+                                    <div class="control-group">
+                                        <label class="control-label" for="Attribut_auteur"> Attribut  </label>
+                                        <div class="controls">
+                                            <select name="Attribut_auteur" id="attribut_auteur">
+                                                <option value="Programmation web">Programmation web</option>
+                                                <option value="Programmaiton Orientée Object">Programmaiton Orientée Object</option>
+                                                <option value="Intelligence Artificielle">Intelligence Artificielle</option>
+                                                <option value="Réseau">Réseau</option>
+                                            </select>
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="btn-group">
+                                        <div class="controls">
+                                            <button type="reset" value="Annuler" class="btn-primary btn-small">
+                                                <i class="icon-white icon-remove-sign"></i> Annuler
+                                            </button>
+                                            <button type="submit" value="Associer" class="btn-success btn-small"> 
+                                                <i class="icon-white icon-ok-sign"></i> Associer
+                                            </button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="span7 formulaire GroupeProprietaire_Document tab-pane" id="GroupeProprietaire_Document">
+                            <form name="GroupeProprietaire" class="form-horizontal well">
+                                <fieldset>
+                                    <div class="control-group">
+                                        <label class="control-label" for="ID_Groupe"> ID </label>
+                                        <div class="controls">
+                                            <input type="number" min ="1" name="id_Groupe" id="ID_Groupe"/>  
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="Nom_GroupeProprietaires"> Nom du groupe </label>
+                                        <div class="controls">
+                                            <input type="text" name="Nom_GroupeProprietaires" id="Nom_GroupeProprietaires"/>  
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="Statut_groupeProprietaire"> Statut du groupe </label>
+                                        <div class="controls">
+                                            <input type="number" min="0" max="2" name="Statut_groupeProprietaire">
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="Description_Groupe"> Description </label>
+                                        <div class="controls"> 
+                                            <textarea class="input-large" rows="5" placeholder="Description du groupe"  id="Description_Groupe"> </textarea>
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+                                              
+                                    <br/>
+
+                                    <div class="btn-group">
+                                        <div class="controls">
+                                            <button type="reset" value="Annuler" class="btn-primary btn-small">
+                                                <i class="icon-white icon-remove-sign"></i> Annuler
+                                            </button>
+                                            <button type="submit" value="Associer" class="btn-success btn-small"> 
+                                                <i class="icon-white icon-ok-sign"></i> Associer
+                                            </button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="span7 formulaire Type_Document tab-pane" id="Type_Document">
+                            <form name="Type_Document" class="form-horizontal well">
+                                <fieldset>
+                                    <div class="control-group">
+                                        <label class="control-label" for="ID_Type"> ID </label>
+                                        <div class="controls">
+                                            <input type="number" min ="1" name="id_Type" id="ID_Type"/>  
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="taille_max"> Taille (Kilo Octet) </label>
+                                        <div class="controls">
+                                            <input type="number" min="0" step="512" name="taille_max" id="taille_max"/>  
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="Extension"> Extension </label>
+                                        <div class="controls">
+                                            <select name="extension_document" id="Extension">
+                                                <option value=".docx"> .docx </option>
+                                                <option value=".pdf"> .pdf </option>
+                                                <option value=".xlsx"> .xlsx </option>
+                                                <option value=".zip"> .zip </option>
+                                                <option value=".rar"> .rar </option>
+                                            </select>
+                                            <span class="help-inline"></span>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="btn-group">
+                                        <div class="controls">
+                                            <button type="reset" value="Annuler" class="btn-primary btn-small">
+                                                <i class="icon-white icon-remove-sign"></i> Annuler
+                                            </button>
+                                            <button type="submit" value="Associer" class="btn-success btn-small"> 
+                                                <i class="icon-white icon-ok-sign"></i> Associer
+                                            </button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row"></div>
+            <div class="row"></div>
+        </footer>
+    </body>
+</html>

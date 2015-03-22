@@ -1,0 +1,3 @@
+// Structure fichier, [Matricule] : [Nom Etudiant] : [Prenom Etudiant] :[Fichier De Notes]:[Niveau]
+11P248 : Zafack  : Billy : 14.5 
+11P169 : Nanda : Edouard : 15  

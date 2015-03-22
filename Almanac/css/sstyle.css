@@ -1,0 +1,39 @@
+/*
+[class*="span"] {
+background-color: lightgreen;
+margin-bottom : 10px;
+border-radius: 5px 5px 5px 5px;
+line-height: 80px;
+text-align: center;
+}
+
+[class="span10"] {
+background-color: green;
+}
+*/
+
+section.container{
+    margin-top: 125px;
+    box-shadow: 2px 2px 5px 5px #CCC;
+	border-radius : 5px;
+}
+
+.main-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu-header{
+    padding-left: 20px;
+}
+
+.carousel-image{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.carousel-caption p {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 0.8em;
+}

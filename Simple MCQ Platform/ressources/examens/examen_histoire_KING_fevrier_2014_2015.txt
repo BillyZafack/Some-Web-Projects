@@ -1,0 +1,67 @@
+﻿://L'etoile precede la bonne reponse
+INTITULE   : EXAMEN HISTORE
+SESSION    : FEVRIER 2024-2015
+PROFESSEUR : KING
+DUREE      : 30 minutes
+:
+DEBUT QUESTIONS
+:
+Q : Qui etait le president Americain en 2009?
+R : Bill Clinton|*Barack Obama|George W. Bush|George H Bush
+:
+Q : En quelle annee a commence la premiere guerre mondiale?
+R : *1914|1916|1918|1910
+:
+Q : Comment s'appelait l'epouse d'Adolf Hitler morte suicidee en 1945?
+R : Liv Hitler|*Eva Braun|Stockhov Aileen|Jane Hitler
+:
+Q : Dans quelle ville Europeene, De Gaulle lance un au francais contre les Allemands apres l'occupation de la France?
+R : *Londres|Paris|Stockholm|Lisbonne
+:
+Q : En quelle annee Paul Biya vient il au pouvoir?
+R : 1989|*1982|1990|1984
+:
+Q : Qui est le premier ministre Camerounais en 2006?
+R : Yang Philemon|Peter Mafany Musongue|*Ephraim Inoni|Achidi Achu
+:
+Q : Qui est le premier Secretaire General de l'ONU Africain?
+R : Koffi Annan|*Boutrous Boutrous Ghali|Abdou Diouf|Usongo John
+:
+Q : En quelle année est morte la Princess Diana?
+R : 2001|1999|*1997|1995
+:
+Q : En quelle année la France gagna t-elle la Coupe Du Monde?
+R : 1993|1995|1994|*1998
+:
+Q : En quelle année Nelson Mandela sort-il de prison?
+R : 1992|*1990|1994|1998
+:
+Q : De quelle nationalité est Ahmed Ben Bella ?
+R : Tunisien|Maroccain|*Algerienne|Libyen
+:
+Q : Quelle élément geographique donne son nom au Cameroun?
+R : *L'estuaire du Wouri|Mont Cameroun|Mont Kupe|Les sept collines
+:
+Q : Dans quelle club evolue Samuel Eto'o en 2008?
+R : Inter Milan|*FC Barcelone|Andiy Makashkala|RCD Mallorque
+:
+Q : Quel joueur est le ballon d'or en 2008?
+R : Cristiano Ronaldo|*Kaka|Lionel Messi|Cannavaro
+:
+Q : En quel annee est mort Michael Jackson?
+R : 2007|*2009|2010|2008
+:
+Q : En quelle annee est oficiellement apparu le langage Java?
+R : *1995|1985|1996|1986
+:
+Q : Quelle est la monnaie utilisee au Etats-Unis?
+R : *Dollar|Euro|Franc|Yen
+:
+Q : Quelle est la monnaie utilisee en France?
+R : Dollar|Yuan|*Euro|Franc
+:
+Q : Quelle est la capitale gabonaise?
+R : Brazzaville|*Libreville|N'Djamena|Porto-Novo
+:
+Q : Qui est la presidente liberienne?
+R : Dilma Rousseff|Veronica Descas|Polly Johnson|*Ellen Johnson

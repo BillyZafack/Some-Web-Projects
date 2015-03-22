@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>essai</title>
+        <link rel="stylesheet" href="combined.css"/>
+        <script  src="js/jquery.js"></script>
+        <script  src="js/main.js"></script>
+    </head>
+    <body>
+        
+        <DIV id="snippetGroup4">
+        <DIV class="codeSnippetContainer" id="code-snippet-5">
+        <DIV class="codeSnippetContainerTabs">
+        <DIV class="codeSnippetContainerTabActive" dir="ltr"><A onclick="loadAuteurs()">Auteurs</A></DIV>
+        <DIV class="codeSnippetContainerTab" dir="ltr"><A onclick="loadGroupes()">Groupe proprietaires</A></DIV>
+        <DIV class="codeSnippetContainerTab" dir="ltr"><A onclick="loadTypes()">Type Document</A></DIV>
+        </DIV>
+        <DIV class="codeSnippetContainerCodeContainer">
+        <DIV class="codeSnippetToolBar">
+        
+        </DIV>
+        <DIV class="codeSnippetContainerCode" id="CodeSnippetContainerCode_a45e0364-cd8a-4380-919c-25dd2a724269" dir="ltr">
+            <DIV style="color: black;">
+                <div id="article">        
+                <article class="formulaire Auteur_Document" id="Auteur_Document">
+                    <form name="Auteur">
+                        <label> Auteur(s) du document </label> </br></br>
+                
+                        <label> ID </label>
+                        <input type="number" name="id"/></br></br>
+                
+                        <label> Nombre de publications </label>
+                        <input type="number" name="prix"/></br></br>
+                
+                        <label> Domaine </label>
+                        <select name="Domaine" id="Domaine">
+                            <option value="Programmation web">Programmation web</option>
+                            <option value="Programmaiton Orientée Object">Programmaiton Orientée Object</option>
+                            <option value="Intelligence Artificielle">Intelligence Artificielle</option>
+                            <option value="Réseau">Réseau</option>
+                        </select>
+                        </br></br>
+                
+                        <label> Date </label>
+                        <input type="date" name="bday">
+                        </br></br>
+
+                        <label> Attribut </label>
+                        <select name="Attribut" id="Attribut">
+                            <option value="Programmation web">Programmation web</option>
+                            <option value="Programmaiton Orientée Object">Programmaiton Orientée Object</option>
+                            <option value="Intelligence Artificielle">Intelligence Artificielle</option>
+                            <option value="Réseau">Réseau</option>
+                        </select>
+                        </br></br>
+                
+                        <input type="submit" value="Associer"/>
+                        <input type="reset" value="Annuler"/>
+                    </form>    
+                </article>
+                    </div>
+
+                <article class="formulaire GroupeProprietaire_Document" id="GroupeProprietaire_Document">
+                <form name="GroupeProprietaire">
+                    <label> Groupe de Propriétaires du document </label> </br></br>
+                
+                    <label> ID </label>
+                    <input type="number" name="id_groupeProprietaire"/></br></br>
+                
+                    <label> Nom </label>
+                    <input type="text" name="Nom_groupeProprietaire"/></br></br>
+                
+                    <label> Statut </label>
+                    <input type="number" min="0" max="2" name="Statut_groupeProprietaire">
+                    </br></br>
+                
+                    <label> Description </label>
+                    <input type="text" name="description_groupeProprietaire"/>
+                    </br></br>
+                
+                    <input type="submit" value="Associer"/>
+                    <input type="reset" value="Annuler"/>
+                </form>    
+            </article>
+
+            <article class="formulaire Type_Document" id="Type_Document">
+                <form name="Auteur">
+                    <label> Type du Document </label> </br></br>
+                
+                    <label> ID </label>
+                    <input type="number" name="id_type"/></br></br>
+                
+                    <label> Taille maximale (ko) </label>
+                    <input type="number" min="0" step="512" name="taille_max"/></br></br>
+                
+                    <label> Extension du fichier </label>
+                    <input list="Extension" name="extension_document">
+                        <datalist id="Extension">
+                            <option value=".docx">
+                            <option value=".pdf">
+                            <option value=".xlsx">
+                            <option value=".zip">
+                            <option value=".rar">
+                        </datalist> 
+                </form>    
+            </article>
+            
+            </PRE></DIV></DIV></DIV></DIV></DIV></LI></OL></DIV></DIV></A> 
+
+    </body>
+</html>

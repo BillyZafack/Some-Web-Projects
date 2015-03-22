@@ -1,0 +1,57 @@
+#search
+{
+    float: right;
+    margin-top: 15px;
+}
+
+
+input[type="text"],input[type="password"],textarea, select
+{
+	margin: 0; /* Safari by default adds a margin */
+	padding: 4px;
+	border: 1px solid #b2b2b2;
+	border-radius: 4px;
+	box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.1);
+	-moz-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.1);
+	-webkit-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.1);
+	-o-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.1);
+}
+
+input[type="text"]:focus,input[type="password"]:focus,input.button:focus,textarea:focus, select:focus 
+{
+	border-color: #4787b1;
+	box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9);
+	-moz-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9);
+	-webkit-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9);
+	-o-box-shadow: 0 0 5px 2px rgba(71,135,177, 0.9);
+	outline: none;
+}
+
+input.placeholder,textarea.placeholder, select.placeholder
+{
+	color: #aaa;
+}
+
+
+
+#search input[type="text"]
+{
+    width: 230px;
+    height: 20px;
+}
+
+
+
+#top .top-bottom { background: url(images/footer-cols.png) repeat-x 0 0 white; padding: 4px 50px 0px; margin: 3px; float: right;}
+
+#top .top-bottom p.copy { float: right; line-height: 11px; font-size: 11px; color: #717171; }
+#top .top-bottom p.copy span { padding: 0 8px; }
+#top .top-bottom p.copy a { color: #717171; text-decoration: underline;}
+#top .top-bottom p.copy a:hover { color: #fff; text-decoration: none; }
+
+#top .top-nav { float: right; font-size: 10px;}
+#top .top-nav ul { list-style: none; list-style-position: outside; line-height: 11px;  }
+#top .top-nav ul li { font-size: 10px; float: left; border-right: 1px solid #181818;  padding: 0 8px; text-shadow: rgba(0,0,0,0.7) 0px 1px 1px; }
+#top .top-nav ul li:first-child { padding-left: 0; }
+#top .top-nav ul li a { color: #AC6464; }
+#top .top-nav ul li a:hover { color: #fff; }
